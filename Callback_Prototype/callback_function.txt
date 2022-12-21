@@ -1,0 +1,8 @@
+Callback Function 
+-----------------
+Function is block of code which will be invoked when it is called , function on execution may return value.
+If required function may call another function in response of execution is considered as callback function. 
+                 
+Promise and Callback
+--------------------
+The idea is to create a new Promise object that wraps around the callback function. If the callback function returns an error, we reject the Promise with the error. If the callback function returns non-error output, we resolve the Promise with the output
